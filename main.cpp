@@ -4,14 +4,17 @@ using namespace std;
 
 
 int main(){
-	for (int n>0; n<100; n++){
+	for (int n=2; n<100; n++){
 		
-		for(int k>1; k<100; k++){
-			if(n%K==0
-	
-	
-	
-	
+		for(int k=2; k<100; k++){
+			if(n%k == 0){
+				break;
+			}
+			else if (n == k+1){
+				cout << n << " ";
+			}
+		}
+	}
 	
 	return 0;
 }
